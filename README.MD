@@ -1,6 +1,6 @@
 # tinyphysicsengine-test
 
-`hbldr tinyphysicsengine-test01.elf`
+`hbldr tinyphysicsengine-car.elf`
 
 ## Controls:
 
