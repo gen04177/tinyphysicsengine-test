@@ -21,8 +21,19 @@ TPE_Joint joints[WATER_JOINTS + 1];
 TPE_Connection connections[WATER_CONNECTIONS];
 TPE_Body bodies[2];
 
+void printHelp(void)
+{
+    printf("Water: example program for tinyphysicsengine.\n\n");
+
+    printf("\nby Miloslav Ciz, released under CC0 1.0\n");
+
+    printf("\n@gen04177 v0.1\n");
+}
+
 int main(void)
 {
+  printHelp();
+  
   if (SDL_Init(SDL_INIT_GAMECONTROLLER) < 0)
   {
       printf("SDL could not initialize! SDL_Error: %s\n", SDL_GetError());
