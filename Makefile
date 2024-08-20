@@ -11,7 +11,7 @@ LDADD  += $(shell $(PS5_PAYLOAD_SDK)/target/bin/sdl2-config --libs)
 
 SRCS := car.c
 OBJS := $(SRCS:.c=.o)
-ELF := tinyphysicsengine-test01.elf
+ELF := tinyphysicsengine-car.elf
 
 all: $(ELF)
 
