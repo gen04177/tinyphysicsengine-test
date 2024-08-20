@@ -12,6 +12,6 @@
 
 - J. Tornblom for the SDK and required payloads.
 - drummyfish for the lib and example program.
-- gen04177, research & testing...
+- gen04177, testing and research...
 
 For more info, see: https://codeberg.org/drummyfish/tinyphysicsengine
